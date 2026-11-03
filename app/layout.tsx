@@ -1,16 +1,16 @@
-"use client";
-
 import Header from "@/components/Header";
-import { useEffect } from "react";
+import { Metadata } from "next";
+import "./layout.css";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "The official Next.js Course Dashboard, built with App Router.",
+};
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
-  useEffect((): void => {
-    console.log("Test...");
-  }, []);
-
   return (
     <html lang="en">
-      <body>
+      <body className="p-4">
         <Header />
 
         {children}

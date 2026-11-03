@@ -1,7 +1,10 @@
-export default function Home() {
+import Home from "@/components/Home";
+import { Suspense } from "react";
+
+export default function Page() {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <Suspense fallback={<p>Loading...</p>}>
+      <Home />
+    </Suspense>
   );
 }
