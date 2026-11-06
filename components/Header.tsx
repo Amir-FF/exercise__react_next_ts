@@ -18,45 +18,7 @@ export default function Header() {
             }
             href="/"
           >
-            Loyout
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={
-              path === "/about"
-                ? "text-sky-500 text-3xl font-bold underline"
-                : "text-3xl font-bold"
-            }
-            href="/about"
-          >
-            Blog
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            className={
-              path === "/products"
-                ? "text-sky-500 text-3xl font-bold underline"
-                : "text-3xl font-bold"
-            }
-            href="/products"
-          >
-            Products
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            className={
-              path === "/users"
-                ? "text-sky-500 text-3xl font-bold underline"
-                : "text-3xl font-bold"
-            }
-            href="/users"
-          >
-            users
+            Home
           </Link>
         </li>
       </ul>
