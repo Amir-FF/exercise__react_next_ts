@@ -25,13 +25,13 @@ export default function Header() {
         <li>
           <Link
             className={
-              path === "/posts"
+              path === "/photos"
                 ? "text-sky-500 text-3xl font-bold underline"
                 : "text-3xl font-bold"
             }
-            href="/posts"
+            href="/photos"
           >
-            Posts
+            Photos
           </Link>
         </li>
       </ul>

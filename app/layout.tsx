@@ -9,7 +9,7 @@ export default function rootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="p-4 root">
+      <body className="p-4">
         <Suspense fallback={<div>Loading Header...</div>}>
           <Header />
         </Suspense>

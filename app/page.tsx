@@ -1,9 +1,7 @@
 export default function Page() {
   return (
     <>
-      <h1>hello would</h1>
-      <br />
-      <h1>سلام جهان</h1>
+      <h1 className="text-3xl">Home</h1>
     </>
   );
 }
