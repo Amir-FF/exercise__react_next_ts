@@ -21,6 +21,19 @@ export default function Header() {
             Home
           </Link>
         </li>
+
+        <li>
+          <Link
+            className={
+              path === "/posts"
+                ? "text-sky-500 text-3xl font-bold underline"
+                : "text-3xl font-bold"
+            }
+            href="/posts"
+          >
+            Posts
+          </Link>
+        </li>
       </ul>
 
       <br />
